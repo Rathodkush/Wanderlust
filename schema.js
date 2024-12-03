@@ -1,7 +1,7 @@
 const Joi = require('joi');
 const { model } = require('mongoose');
 
-module.exports.lisitngSchema = Joi.object({
+module.exports.listingSchema = Joi.object({
 listing: Joi.object({
     title: Joi.string().required(),
     description: Joi.string().required(),
